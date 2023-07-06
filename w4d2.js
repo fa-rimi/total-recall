@@ -25,6 +25,10 @@
  *         proceed and compile.
  * 
  * 5. What is pseudo coding and why should you do it?
+ *      A: Pseudo code is logically thinking and writing a "draft" of how you would solve a problem without writing actual code. It is
+ *         an informal way of programming that doesn't require strict code and syntax. This is helpful because it you build a
+ *         foundational understanding of the problem as well as an outline. At that point you just need to replace the outline with
+ *         formal code.
  * 
  * 6. What percentage of time should be spent thinking about how you're going to solve a problem vs actually typing in code to solve it?
  * 
