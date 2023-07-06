@@ -31,5 +31,8 @@
  *         formal code.
  * 
  * 6. What percentage of time should be spent thinking about how you're going to solve a problem vs actually typing in code to solve it?
- * 
+ *      A: In my opinion I think its good to spend about 70% of the time thinking about how you're going to solve the problem and 
+ *         spending 30% of the time coding. You can only think about your approach to a problem for so long. A large portion of problem
+ *         solving is writing code, testing, running into an error, thinking, and debugging. Then the cycle repeats.
+ *         
  */
