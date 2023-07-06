@@ -9,6 +9,9 @@
  *      Ex: const hermione = "ron";
  * 
  * 2. How do we change the value of a variable?
+ *      A: We change the value of a variable by using the assignment operator (=) 
+ *      Ex: let colossalTitan = "Bertolt";
+ *          colossalTitan = "Armin"
  * 
  * 3. How do we assign an existing variable to a new variable?
  * 
