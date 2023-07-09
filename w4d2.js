@@ -72,19 +72,19 @@ const a = 4;
 const b = 53;
 const c = 57;
 const d = 16;
-const e = 'Kevin';
+const e = "Kevin";
 
 console.log(a < b);
 console.log(c > d);
-console.log('Name' === 'Name');
+console.log("Name" === "Name");
 // FOR THE NEXT TWO, USE ONLY && OR ||
 console.log(true || false);
-console.log(false && false && false && false && false || true);
-console.log(false === false)
-console.log(e === 'Kevin');
+console.log((false && false && false && false && false) || true);
+console.log(false === false);
+console.log(e === "Kevin");
 console.log(a + b === c); // note: a < b < c is NOT CORRECT (and is not a valid JS expression, think about using other math operations)
 console.log(a * a === d); // note: the answer is a simple arithmetic equation, not something "weird"
-console.log(48 !== '48');
+console.log(48 !== "48");
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 // PART D - THE FARM
@@ -93,19 +93,29 @@ let animal = "cow";
 
 // Write code that will print out "mooooo" if the it is equal to cow
 if (animal === "cow") {
-    console.log("moooo");
+  console.log("moooo");
 }
 // Change your code so that if the variable animal is anything other than a cow, it will print "Hey! You're not a cow."
-animal = "penguin"
+animal = "penguin";
 if (animal === "cow") {
-    console.log("moooo");
+  console.log("moooo");
 } else {
-    console.log("Hey! You're not a cow.");
+  console.log("Hey! You're not a cow.");
 }
 // Commit
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-
 // PART E - DRIVERS ED
+// Make a variable that holds a person's age; be semantic
+const age = "14";
+
+// Write code that will print out "Here are the keys!", if the age is 16 years or older, or, if the age is younger than 16, a message should print "Sorry, you're too young."
+if (age >= 16) {
+  console.log("Here are the keys!");
+} else if (age < 16) {
+  console.log("Sorry, you're too young.");
+} else {
+  console.log("invalid age");
+}
 
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
