@@ -37,6 +37,8 @@
  *
  */
 
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 //  PART B - STRINGS
 
 // Create a variable called firstVariable
@@ -61,6 +63,7 @@ console.log(firstVariable);
 // Create a variable called yourName and set it equal to your name as a string. Then, write an expression that takes the string "Hello, my name is " and the variable yourName so that it returns a new string with them concatenated.
 let yourName = "Rimi";
 console.log(`Hello, my name is ${yourName}`);
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 // PART C - BOOLEANS
 // Using the provided variable definitions, replace the blanks so that all log statements print true in the console. Answers should be all be valid JS syntax and not weird things that don't make sense but happen to print true to the console
@@ -82,6 +85,27 @@ console.log(e === 'Kevin');
 console.log(a + b === c); // note: a < b < c is NOT CORRECT (and is not a valid JS expression, think about using other math operations)
 console.log(a * a === d); // note: the answer is a simple arithmetic equation, not something "weird"
 console.log(48 !== '48');
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 // PART D - THE FARM
+// Declare a variable animal. Set it to be either "cow" or something else
+let animal = "cow";
+
+// Write code that will print out "mooooo" if the it is equal to cow
+if (animal === "cow") {
+    console.log("moooo");
+}
+// Change your code so that if the variable animal is anything other than a cow, it will print "Hey! You're not a cow."
+animal = "penguin"
+if (animal === "cow") {
+    console.log("moooo");
+} else {
+    console.log("Hey! You're not a cow.");
+}
+// Commit
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
 // PART E - DRIVERS ED
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
