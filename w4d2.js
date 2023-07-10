@@ -367,21 +367,26 @@ thomsCloset[2][0];
 console.log(thomsCloset[2][0]);
 
 // Log a sentence about what Thom's wearing. Example: "Thom is looking fierce in a grey button-up, jeans and wool scarf!"
-console.log(`Thom is looking fierce in a ${thomsCloset[0][1]}, ${thomsCloset[1][2]}, and ${thomsCloset[2][0]}!`);
-
+console.log(
+  `Thom is looking fierce in a ${thomsCloset[0][1]}, ${thomsCloset[1][2]}, and ${thomsCloset[2][0]}!`
+);
 
 // Get more specific about what kind of PJs Thom's wearing this winter. Modify the name of his PJ pants to Footie Pajamas.
-thomsCloset[1][2] = "Footie Pajamas"
+thomsCloset[1][2] = "Footie Pajamas";
 console.log(thomsCloset);
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 // PART IV
 
 // A -- printGreeting
+function printGreeting(name) {
+  console.log(`Hello there, ${name}`);
+}
+console.log(printGreeting("Rimi"));
 
 // B -- printCool
 
-// C -- calculateCube 
+// C -- calculateCube
 
 // D -- isVowel
 
