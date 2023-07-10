@@ -459,3 +459,46 @@ function printLongestWord(strArry){
     }
 }
 console.log(printLongestWord(["bob", "supercalifragilisticexp", "supercalifragilisticexpialidocious", "supercalifragilisticexpia"]));
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// PART V
+// Let's set up an object data structure. Let's say we have a website that sells products, and we have a user of our website, and we want to store that user's data. The object data structure is a good way to organize the data from our user.
+
+
+// A -- MAKE A USER OBJECT
+let user = {
+    name: 'nala',
+    email: 'cat@gmail.com',
+    age: 1,
+    purchased: [],
+}
+
+// B -- UPDATE THE USER
+user.email = "torty@gmail.com";
+user.age++;
+console.log(user);
+
+// C -- ADDING KEYS & VALUES
+user.location = "Brooklyn"
+console.log(user);
+
+// D -- SHOPAHOLIC!
+user.purchased.push("carbohydrates", "peace of mind", "Merino jodhpurs");
+console.log(user.purchased[2]);
+
+// E -- OBJ-WITHIN-OBJ
+user.friend = {
+    name: "Grace Hooper",
+    age: 85,
+    location: "Philadelphia",
+    purchased: []
+}
+console.log(user.friend.name);
+console.log(user.friend.location);
+
+user.friend.age = 55;
+console.log(user.friend);
+
+user.friend.purchased.push("The One Ring", "A latte");
+console.log(user.friend.purchased[1]);
+console.log(user.friend);
