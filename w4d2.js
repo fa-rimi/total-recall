@@ -150,17 +150,39 @@ for (let num = 12; num <= 4000; num++) {
 }
 
 // B -- GET EVEN
-
 // Print out the numbers that are within the range of 1 - 100
 // for (let num1 = 1; num1 <= 100; num1++) {
-//     console.log(num1);    
+//     console.log(num1);
 // }
 
 // Adjust your code to add a message next to even numbers only that says: "<-- is an even number"
 for (let num1 = 1; num1 <= 100; num1++) {
-    if (num1 % 2 === 0) {
-        console.log(num1 + "<-- is an even number")
-    } else {
-        console.log(num1);
-    }
+  if (num1 % 2 === 0) {
+    console.log(num1 + " <-- is an even number");
+  } else {
+    console.log(num1);
+  }
 }
+
+// C -- GIVE ME FIVE
+for (let index = 0; index <= 100; index++) {
+  if (index % 5 === 0 && index % 3 === 0) {
+    // For numbers divisible by both three and five, be sure your code prints both messages
+    console.log(`I found a ${index}. High five but three is a crowd.`);
+  } else if (index % 5 === 0) {
+    // print out "I found a number. High five!" if the number is a multiple of five
+    console.log(`I found a ${index}. High five!`);
+  } else if (index % 3 === 0) {
+    // print out "I found a number. Three is a crowd" if the number is a multiple of three
+    console.log(`I found a ${index}. Three is a crowd.`);
+  }
+}
+
+// D -- SAVINGS ACCOUNT
+// Write code that will save the sum of all the numbers between 1 - 10 to a variable called bank_account.
+
+// Check your work! Your bank_account should have $55 in it.
+
+// You got a bonus! Your pay is now doubled each week. Write code that will save the sum of all the numbers between 1 - 100 multiplied by 2.
+
+//Check your work! Your bank_account should have $10,100 in it.
