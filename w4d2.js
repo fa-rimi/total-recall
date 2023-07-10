@@ -502,3 +502,29 @@ console.log(user.friend);
 user.friend.purchased.push("The One Ring", "A latte");
 console.log(user.friend.purchased[1]);
 console.log(user.friend);
+
+// F -- LOOPS
+for (let s = 0; s < user.purchased.length; s++){
+    console.log(user.purchased[s])
+}
+
+for (let s = 0; s < user.friend.purchased.length; s++){
+    console.log(user.friend.purchased[s])
+}
+
+// G -- FUNCTIONS CAN OPERATE ON OBJECTS
+function updateUser(){
+    user.age++
+    user.name.toUpperCase()
+    console.log(user.age)
+    console.log(user.name.toUpperCase())
+}
+console.log(updateUser())
+
+function oldAndLoud(person){
+    person.age++
+    person.name.toUpperCase()
+    console.log(person.age)
+    console.log(user.name.toUpperCase())
+}
+console.log(oldAndLoud(user))
