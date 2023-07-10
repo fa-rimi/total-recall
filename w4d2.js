@@ -302,14 +302,75 @@ if (num3 <= 100) {
 let num4 = 7;
 
 if (num4 < 5) {
-    console.log("little number"); // if the number entered is less than 5.
+  console.log("little number"); // if the number entered is less than 5.
 } else if (num4 > 10) {
-    console.log("big number") // If the number entered is more than 10, log big number.
+  console.log("big number"); // If the number entered is more than 10, log big number.
 } else {
-    console.log("monkey") // Otherwise, log "monkey".
+  console.log("monkey"); // Otherwise, log "monkey".
 }
 
 // H -- WHATS IN YOUR CLOSET
+const kristynsCloset = [
+  "left shoe",
+  "cowboy boots",
+  "right sock",
+  "Per Scholas hoodie",
+  "green pants",
+  "yellow knit hat",
+  "marshmallow peeps",
+];
+
+// Thom's closet is more complicated. Check out this nested data structure!!
+const thomsCloset = [
+  [
+    // These are Thom's shirts
+    "grey button-up",
+    "dark grey button-up",
+    "light blue button-up",
+    "blue button-up",
+  ],
+  [
+    // These are Thom's pants
+    "grey jeans",
+    "jeans",
+    "PJs",
+  ],
+  [
+    // Thom's accessories
+    "wool mittens",
+    "wool scarf",
+    "raybans",
+  ],
+];
+
+// What's Kristyn wearing today? Using bracket notation to access items in kristynsCloset, log the sentence
+console.log(`Kristyn is rocking that ${kristynsCloset[0]} today!`);
+
+// Kristyn just bought some sweet shades! Add "raybans"to her closet after "yellow knit hat".
+kristynsCloset.splice(6, 0, "raybans");
+console.log(kristynsCloset);
+
+// Kristyn spilled coffee on her hat... modify this item to read "stained knit hat" instead of yellow.
+kristynsCloset[5] = "stained knit hat";
+console.log(kristynsCloset);
+
+// Put together an outfit for Thom! Using bracket notation, access the first element in Thom's shirts array.
+thomsCloset[0][1];
+console.log(thomsCloset[0][1]);
+
+// In the same way, access one item from Thom's pants array.
+thomsCloset[1][2];
+console.log(thomsCloset[1][2]);
+
+// Access one item from Thom's accessories array.
+thomsCloset[2][0];
+console.log(thomsCloset[2][0]);
+
+// Log a sentence about what Thom's wearing. Example: "Thom is looking fierce in a grey button-up, jeans and wool scarf!"
+console.log(`Thom is looking fierce in a ${thomsCloset[0][1]}, ${thomsCloset[1][2]}, and ${thomsCloset[2][0]}!`);
 
 
+// Get more specific about what kind of PJs Thom's wearing this winter. Modify the name of his PJ pants to Footie Pajamas.
+thomsCloset[1][2] = "Footie Pajamas"
+console.log(thomsCloset);
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
