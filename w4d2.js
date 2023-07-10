@@ -430,7 +430,10 @@ console.log(isVowel("r"));
 
 // E -- getTwoLengths
 // Write a function getTwoLengths that accepts two parameters (strings). The function should return an array of numbers where each number is the length of the corresponding string.
-
+function getTwoLengths(string1, string2) {
+    console.log([string1.length, string2.length]);
+}
+console.log(getTwoLengths("Im", "tired"));
 
 
 
