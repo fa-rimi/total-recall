@@ -197,5 +197,117 @@ for (let i = 1; i <= 100; i++) {
 }
 console.log(bank_account);
 //Check your work! Your bank_account should have $10,100 in it.
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// PART III
+
+// A -- TALK ABOUT IT
+/**
+ * 1. What are the things in an array called?
+ * Things inside an array are called elements
+ *
+ * 2. Do Arrays guarantee those things will be in order?
+ * Yes arrays guarantee elements will be in order
+ *
+ * 3. What real-life thing could you model with an array?
+ * A line, train, ticket system, basically anything like an object.
+ *
+ **/
 
 
+
+// B -- EASY DOES IT
+// Create an array that contains three quotes and store it in a variable called quotes
+const quotes = ["How", "Are", "You?"];
+
+
+
+// C -- ACCESSING ELEMENTS
+// Given the following array
+const randomThings = [1, 10, "Hello", true];
+
+// How do you access the 1st element in the array?
+randomThings[0]; // the 0 indicates the first value
+
+// Change the value of "Hello"to "World"
+randomThings[2] = "World";
+
+// Check the value of the array to make sure it updated the array. How? Why, yes! console.log();
+console.log(randomThings);
+
+
+
+// D -- CHANGE VALUES
+// Given the following array
+const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"];
+
+// What would you write to access the 3rd element of the array?
+ourClass[2]; // the 2 indicates the third value
+console.log(ourClass);
+
+// Change the value of "Github" to "Octocat"
+ourClass[4] = "Octocat";
+console.log(ourClass);
+
+// Add a new element, "Cloud City" to the array
+ourClass.push("Cloud City");
+console.log(ourClass);
+
+
+
+// E -- MIX IT UP
+// Note: You don't really need .splice()for these. You could use it, but there are simpler array methods that are more appropriate.
+
+// Given the following array:
+const myArray = [5, 10, 500, 20];
+
+// Add the string "Aegon"to the end of the array. Add another string of your choice to the end of the array.
+myArray.push("Aegon", "targaryen");
+console.log(myArray);
+
+// Remove the 5 from the beginning of the array
+myArray.shift();
+console.log(myArray);
+
+// Add the string "Bob Marley"to the beginning of the array.
+myArray.unshift("Bob Marley");
+console.log(myArray);
+
+// Remove the string of your choice from the end of the array.
+myArray.pop();
+console.log(myArray);
+
+// Reverse this array using Array.prototype.reverse()
+myArray.reverse();
+console.log(myArray);
+
+/**
+ * Did you mutate the array?
+ * A - Yes because it calls to the array directly and then makes the changes 
+ * 
+ * What does mutate mean?
+ * A - Mutate means to change or alter 
+ *  
+ * Did the .reverse() method return anything?
+ * A - The .reverse() method returned the array in a reverse order
+ *
+ **/
+
+
+
+
+// F -- BIGGIE SMALLS
+
+
+
+
+
+// G -- MONKEY IN THE MIDDLE
+
+
+
+
+
+// H -- WHAT IN YOUR CLOSET
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
