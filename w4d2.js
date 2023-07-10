@@ -385,8 +385,16 @@ function printGreeting(name) {
 console.log(printGreeting("Rimi"));
 
 // B -- printCool
+function printCool(title) {
+  console.log(`${title} is cool!`);
+}
+console.log(printCool("Rimi"));
 
 // C -- calculateCube
+function calculateCube(num) {
+  console.log(num * num * num);
+}
+console.log(calculateCube(5));
 
 // D -- isVowel
 
@@ -397,3 +405,4 @@ console.log(printGreeting("Rimi"));
 // G -- maxOfThree
 
 // H -- printLongestWord
+
