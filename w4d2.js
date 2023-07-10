@@ -385,8 +385,6 @@ function printGreeting(name) {
 }
 console.log(printGreeting("Rimi"));
 
-
-
 // B -- printCool
 // Write a function printCool that accepts one parameter, name as an argument. The function should print the name and a message saying that that person is cool.
 function printCool(title) {
@@ -394,16 +392,12 @@ function printCool(title) {
 }
 console.log(printCool("Rimi"));
 
-
-
 // C -- calculateCube
 // Write a function calculateCube that takes a single number and prints the volume of a cube made from that number.
 function calculateCube(num) {
   console.log(num * num * num);
 }
 console.log(calculateCube(5));
-
-
 
 // D -- isVowel
 // Write a function isVowel that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise. The vowel could be upper or lower case. Test your function on every vowel and make sure it's working. In general, when you write functions, take a minute to test them with different values to make sure they behave the way you want.
@@ -426,52 +420,50 @@ console.log(isVowel("V"));
 console.log(isVowel("E"));
 console.log(isVowel("r"));
 
-
-
 // E -- getTwoLengths
 // Write a function getTwoLengths that accepts two parameters (strings). The function should return an array of numbers where each number is the length of the corresponding string.
 function getTwoLengths(string1, string2) {
-    console.log([string1.length, string2.length]);
+  console.log([string1.length, string2.length]);
 }
 console.log(getTwoLengths("Im", "tired"));
-
-
 
 // F -- getMultipleLengths
 // Write a function getMultipleLengths that accepts a single parameter as an argument: an array of strings. The function should return an array of numbers where each number is the length of the corresponding string.
 
-
-
 // G -- maxOfThree
 // Define a function maxOfThree that takes three numbers as arguments and returns the largest of them. If all numbers are the same, it doesn't matter which one is returned. If the two largest numbers are the same, one of them should be returned. Be sure to test it with larger values in each of the three locations.
 
-
-
 // H -- printLongestWord
 // Write a function printLongestWord that accepts a single argument, an array of strings. The method should return the longest word in the array. In case of a tie, the method should return the word that appears first in the array.
-function printLongestWord(strArry){
-    let word = '';
-    for (let w = 0; w < strArry.length; w++){
-        if(strArry[w].length > word.length){
-            word = strArry[w];
-        }
-        console.log(word);
+function printLongestWord(strArry) {
+  let word = "";
+  for (let w = 0; w < strArry.length; w++) {
+    if (strArry[w].length > word.length) {
+      word = strArry[w];
     }
+    console.log(word);
+  }
 }
-console.log(printLongestWord(["bob", "supercalifragilisticexp", "supercalifragilisticexpialidocious", "supercalifragilisticexpia"]));
+console.log(
+  printLongestWord([
+    "bob",
+    "supercalifragilisticexp",
+    "supercalifragilisticexpialidocious",
+    "supercalifragilisticexpia",
+  ])
+);
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 // PART V
 // Let's set up an object data structure. Let's say we have a website that sells products, and we have a user of our website, and we want to store that user's data. The object data structure is a good way to organize the data from our user.
 
-
 // A -- MAKE A USER OBJECT
 let user = {
-    name: 'nala',
-    email: 'cat@gmail.com',
-    age: 1,
-    purchased: [],
-}
+  name: "nala",
+  email: "cat@gmail.com",
+  age: 1,
+  purchased: [],
+};
 
 // B -- UPDATE THE USER
 user.email = "torty@gmail.com";
@@ -479,7 +471,7 @@ user.age++;
 console.log(user);
 
 // C -- ADDING KEYS & VALUES
-user.location = "Brooklyn"
+user.location = "Brooklyn";
 console.log(user);
 
 // D -- SHOPAHOLIC!
@@ -488,11 +480,11 @@ console.log(user.purchased[2]);
 
 // E -- OBJ-WITHIN-OBJ
 user.friend = {
-    name: "Grace Hooper",
-    age: 85,
-    location: "Philadelphia",
-    purchased: []
-}
+  name: "Grace Hooper",
+  age: 85,
+  location: "Philadelphia",
+  purchased: [],
+};
 console.log(user.friend.name);
 console.log(user.friend.location);
 
@@ -504,27 +496,33 @@ console.log(user.friend.purchased[1]);
 console.log(user.friend);
 
 // F -- LOOPS
-for (let s = 0; s < user.purchased.length; s++){
-    console.log(user.purchased[s])
+for (let s = 0; s < user.purchased.length; s++) {
+  console.log(user.purchased[s]);
 }
 
-for (let s = 0; s < user.friend.purchased.length; s++){
-    console.log(user.friend.purchased[s])
+for (let s = 0; s < user.friend.purchased.length; s++) {
+  console.log(user.friend.purchased[s]);
 }
 
 // G -- FUNCTIONS CAN OPERATE ON OBJECTS
-function updateUser(){
-    user.age++
-    user.name.toUpperCase()
-    console.log(user.age)
-    console.log(user.name.toUpperCase())
+function updateUser() {
+  user.age++;
+  user.name.toUpperCase();
+  console.log(user.age);
+  console.log(user.name.toUpperCase());
 }
-console.log(updateUser())
+console.log(updateUser());
 
-function oldAndLoud(person){
-    person.age++
-    person.name.toUpperCase()
-    console.log(person.age)
-    console.log(user.name.toUpperCase())
+function oldAndLoud(person) {
+  person.age++;
+  person.name.toUpperCase();
+  console.log(person.age);
+  console.log(user.name.toUpperCase());
 }
-console.log(oldAndLoud(user))
+console.log(oldAndLoud(user));
+
+// CAT COMBINATOR
+// 1 -- MAMA CAT
+// 2 -- PAPA CAT
+// 3 -- COMBINE CATS
+// 4 -- CAT BRAIN BENDER
