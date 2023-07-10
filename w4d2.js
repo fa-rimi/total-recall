@@ -442,12 +442,20 @@ console.log(getTwoLengths("Im", "tired"));
 
 
 
-
 // G -- maxOfThree
 // Define a function maxOfThree that takes three numbers as arguments and returns the largest of them. If all numbers are the same, it doesn't matter which one is returned. If the two largest numbers are the same, one of them should be returned. Be sure to test it with larger values in each of the three locations.
 
 
 
-
 // H -- printLongestWord
 // Write a function printLongestWord that accepts a single argument, an array of strings. The method should return the longest word in the array. In case of a tie, the method should return the word that appears first in the array.
+function printLongestWord(strArry){
+    let word = '';
+    for (let w = 0; w < strArry.length; w++){
+        if(strArry[w].length > word.length){
+            word = strArry[w];
+        }
+        console.log(word);
+    }
+}
+console.log(printLongestWord(["bob", "supercalifragilisticexp", "supercalifragilisticexpialidocious", "supercalifragilisticexpia"]));
