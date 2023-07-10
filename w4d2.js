@@ -297,7 +297,19 @@ if (num3 <= 100) {
 }
 
 // G -- MONKEY IN THE MIDDLE
+// Write an if ... else if ... else statement:
 
-// H -- WHAT IN YOUR CLOSET
+let num4 = 7;
+
+if (num4 < 5) {
+    console.log("little number"); // if the number entered is less than 5.
+} else if (num4 > 10) {
+    console.log("big number") // If the number entered is more than 10, log big number.
+} else {
+    console.log("monkey") // Otherwise, log "monkey".
+}
+
+// H -- WHATS IN YOUR CLOSET
+
 
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
