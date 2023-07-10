@@ -214,13 +214,9 @@ console.log(bank_account);
  *
  **/
 
-
-
 // B -- EASY DOES IT
 // Create an array that contains three quotes and store it in a variable called quotes
 const quotes = ["How", "Are", "You?"];
-
-
 
 // C -- ACCESSING ELEMENTS
 // Given the following array
@@ -234,8 +230,6 @@ randomThings[2] = "World";
 
 // Check the value of the array to make sure it updated the array. How? Why, yes! console.log();
 console.log(randomThings);
-
-
 
 // D -- CHANGE VALUES
 // Given the following array
@@ -252,8 +246,6 @@ console.log(ourClass);
 // Add a new element, "Cloud City" to the array
 ourClass.push("Cloud City");
 console.log(ourClass);
-
-
 
 // E -- MIX IT UP
 // Note: You don't really need .splice()for these. You could use it, but there are simpler array methods that are more appropriate.
@@ -283,30 +275,28 @@ console.log(myArray);
 
 /**
  * Did you mutate the array?
- * A - Yes because it calls to the array directly and then makes the changes 
- * 
+ * A - Yes because it calls to the array directly and then makes the changes
+ *
  * What does mutate mean?
- * A - Mutate means to change or alter 
- *  
+ * A - Mutate means to change or alter
+ *
  * Did the .reverse() method return anything?
  * A - The .reverse() method returned the array in a reverse order
  *
  **/
 
-
-
-
 // F -- BIGGIE SMALLS
+//Create a variable that contains an integer.
+let num3 = 99;
 
-
-
-
+//Write an if ... else statement that:
+if (num3 <= 100) {
+  console.log("little number"); // if the number is entered is less than 100
+} else {
+  console.log("big number"); // if the number is greater than or equal to 100.
+}
 
 // G -- MONKEY IN THE MIDDLE
-
-
-
-
 
 // H -- WHAT IN YOUR CLOSET
 
