@@ -374,3 +374,21 @@ console.log(`Thom is looking fierce in a ${thomsCloset[0][1]}, ${thomsCloset[1][
 thomsCloset[1][2] = "Footie Pajamas"
 console.log(thomsCloset);
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// PART IV
+
+// A -- printGreeting
+
+// B -- printCool
+
+// C -- calculateCube 
+
+// D -- isVowel
+
+// E -- getTwoLengths
+
+// F -- getMultipleLengths
+
+// G -- maxOfThree
+
+// H -- printLongestWord
